@@ -14,9 +14,8 @@ variables:
 
 steps:
 
-- script: cd TestFramework
-
 - script: echo %cd%
+  workingDirectory: $(Agent.BuildDirectory)\s\TestFramework
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
