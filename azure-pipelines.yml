@@ -14,7 +14,7 @@ variables:
 
 steps:
 
-- script: echo %cd%
+- script: dotnet run /env=qa /browser=firefox
   workingDirectory: $(Agent.BuildDirectory)\s\TestFramework
 
 - script: dotnet build --configuration $(buildConfiguration)
