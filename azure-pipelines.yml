@@ -15,9 +15,9 @@ variables:
 steps:
 
 - task: DotNetCoreCLI@2
-    inputs:
-        command: run
-        arguments: '/env=qa /browser=firefox'
+  inputs:
+    command: run
+    arguments: '/env=qa /browser=firefox'
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
