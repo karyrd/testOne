@@ -15,7 +15,7 @@ variables:
 steps:
 
 - script:
-  workingDirectory: $(Agent.BuildDirectory)\TestFramework\TestFramework
+  workingDirectory: $(Agent.BuildDirectory)\s\TestFramework\TestFramework
 
 - task: DotNetCoreCLI@2
   inputs:
