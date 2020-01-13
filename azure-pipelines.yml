@@ -14,14 +14,8 @@ variables:
 
 steps:
 
-- script:
-  workingDirectory: $(Agent.BuildDirectory)\s\TestFramework
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: run
-    projects: '**/*.csproj'
-    arguments: '--configuration $(buildConfiguration) /env=qa /browser=firefox'
+- script: dotnet run /env=qa /browser=firefox
+  workingDirectory: $(Agent.BuildDirectory)
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
