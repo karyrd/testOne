@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="TestFramework.dll" fullname="D:/4kyrs/DimaTesting/bstu-testing-master/TestFramework/TestFramework/bin/Debug/netcoreapp3.1/TestFramework.dll" testcasecount="10" result="Failed" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:27:07Z" duration="649.508968" total="10" passed="9" failed="1" inconclusive="0" skipped="0" asserts="5" random-seed="115822601">
+  <command-line><![CDATA[D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1\TestFramework.dll /env=qa /browser=firefox]]></command-line>
+  <filter>
+    <or>
+      <test>TestFramework.Test.Tests.ProductTests.SearchTest</test>
+      <test>TestFramework.Test.Tests.ProductTests.PricesFilterTest</test>
+      <test>TestFramework.Test.Tests.ProductTests.AddToCartTest</test>
+      <test>TestFramework.Test.Tests.ProductTests.AddToWishlistTest</test>
+      <test>TestFramework.Test.Tests.ProductTests.SalesTest</test>
+      <test>TestFramework.Test.Tests.ProductTests.ClearCartTest</test>
+      <test>TestFramework.Test.Tests.UserTests.LoginTest</test>
+      <test>TestFramework.Test.Tests.UserTests.ChangeNameTest</test>
+      <test>TestFramework.Test.Tests.UserTests.CommentTest</test>
+      <test>TestFramework.Test.Tests.UserTests.RegionTest</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="1012" name="TestFramework.dll" fullname="D:/4kyrs/DimaTesting/bstu-testing-master/TestFramework/TestFramework/bin/Debug/netcoreapp3.1/TestFramework.dll" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:27:07Z" duration="649.508968" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+    <environment framework-version="3.12.0.0" clr-version="3.1.0" os-version="Microsoft Windows 10.0.15063" platform="Win32NT" cwd="D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework" machine-name="DESKTOP-7P0FFH3" user="KaRy" user-domain="DESKTOP-7P0FFH3" culture="be-BY" uiculture="ru-RU" os-architecture="x64" />
+    <settings>
+      <setting name="LOAD" value="System.Collections.Generic.List`1[System.String]" />
+      <setting name="WorkDirectory" value="D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12924" />
+      <property name="_APPDOMAIN" value="TestFramework" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1013" name="TestFramework" fullname="TestFramework" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:27:07Z" duration="649.487856" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1014" name="Test" fullname="TestFramework.Test" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:27:07Z" duration="649.487470" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1015" name="Tests" fullname="TestFramework.Test.Tests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:27:07Z" duration="649.487386" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1000" name="ProductTests" fullname="TestFramework.Test.Tests.ProductTests" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:24:04Z" duration="466.362777" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1003" name="AddToCartTest" fullname="TestFramework.Test.Tests.ProductTests.AddToCartTest" methodname="AddToCartTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="1766511409" result="Passed" start-time="2020-01-13 13:16:17Z" end-time="2020-01-13 13:17:44Z" duration="86.921075" asserts="0" />
+            <test-case id="1004" name="AddToWishlistTest" fullname="TestFramework.Test.Tests.ProductTests.AddToWishlistTest" methodname="AddToWishlistTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="1761293318" result="Failed" label="Error" start-time="2020-01-13 13:17:44Z" end-time="2020-01-13 13:18:57Z" duration="72.538320" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : Tried to run command without establishing a connection]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTimeouts.ExecuteSetTimeout(String timeoutType, TimeSpan timeToWait)
+   at OpenQA.Selenium.Remote.RemoteTimeouts.set_ImplicitWait(TimeSpan value)
+   at TestFramework.Driver.DriverController.Driver(String browser) in D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\Driver\DriverController.cs:line 40
+   at TestFramework.Test.Base.TestBase.Test(Action action) in D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\Test\Base\TestBase.cs:line 19
+   at TestFramework.Test.Tests.ProductTests.AddToWishlistTest() in D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\Test\Tests\ProductTests.cs:line 116]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1006" name="ClearCartTest" fullname="TestFramework.Test.Tests.ProductTests.ClearCartTest" methodname="ClearCartTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="1228464221" result="Passed" start-time="2020-01-13 13:18:57Z" end-time="2020-01-13 13:20:03Z" duration="66.081977" asserts="0" />
+            <test-case id="1002" name="PricesFilterTest" fullname="TestFramework.Test.Tests.ProductTests.PricesFilterTest" methodname="PricesFilterTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="163177908" result="Passed" start-time="2020-01-13 13:20:03Z" end-time="2020-01-13 13:22:56Z" duration="172.805605" asserts="1" />
+            <test-case id="1005" name="SalesTest" fullname="TestFramework.Test.Tests.ProductTests.SalesTest" methodname="SalesTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="867439999" result="Passed" start-time="2020-01-13 13:22:56Z" end-time="2020-01-13 13:23:28Z" duration="32.169964" asserts="1" />
+            <test-case id="1001" name="SearchTest" fullname="TestFramework.Test.Tests.ProductTests.SearchTest" methodname="SearchTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="1623836127" result="Passed" start-time="2020-01-13 13:23:28Z" end-time="2020-01-13 13:24:04Z" duration="35.811069" asserts="1" />
+          </test-suite>
+          <test-suite type="TestFixture" id="1007" name="UserTests" fullname="TestFramework.Test.Tests.UserTests" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-01-13 13:24:04Z" end-time="2020-01-13 13:27:07Z" duration="183.111659" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <test-case id="1009" name="ChangeNameTest" fullname="TestFramework.Test.Tests.UserTests.ChangeNameTest" methodname="ChangeNameTest" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" seed="2027370349" result="Passed" start-time="2020-01-13 13:24:04Z" end-time="2020-01-13 13:24:41Z" duration="37.336808" asserts="0" />
+            <test-case id="1010" name="CommentTest" fullname="TestFramework.Test.Tests.UserTests.CommentTest" methodname="CommentTest" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" seed="206317545" result="Passed" start-time="2020-01-13 13:24:41Z" end-time="2020-01-13 13:25:17Z" duration="35.923336" asserts="0" />
+            <test-case id="1008" name="LoginTest" fullname="TestFramework.Test.Tests.UserTests.LoginTest" methodname="LoginTest" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" seed="1868956198" result="Passed" start-time="2020-01-13 13:25:17Z" end-time="2020-01-13 13:26:30Z" duration="72.674018" asserts="1" />
+            <test-case id="1011" name="RegionTest" fullname="TestFramework.Test.Tests.UserTests.RegionTest" methodname="RegionTest" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" seed="50157628" result="Passed" start-time="2020-01-13 13:26:30Z" end-time="2020-01-13 13:27:07Z" duration="37.173856" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
