@@ -20,8 +20,7 @@ namespace TestFramework
             Settings.Env = cmdArgs["env"] ?? "dev";
             Settings.Browser = cmdArgs["browser"] ?? "chrome";
             var testRunner = new AutoRun(Assembly.GetExecutingAssembly());
-            //var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\tests.txt" };
-            var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\TestFramework\\TestFramework\\tests.txt" };
+            var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\tests.txt" };
             testRunner.Execute(tests);
         }
     }
