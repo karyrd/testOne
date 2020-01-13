@@ -20,7 +20,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: run
-    projects: '*.csproj'
+    projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration) /env=qa /browser=firefox'
 
 - script: dotnet build --configuration $(buildConfiguration)
