@@ -14,10 +14,7 @@ variables:
 
 steps:
 
-- script:
-  workingDirectory: %cd%\TestFramework
-
-- script: dir
+- script: echo %cd%
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
