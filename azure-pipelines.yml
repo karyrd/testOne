@@ -14,6 +14,8 @@ variables:
 
 steps:
 
+- script: cd TestFramework
+
 - script: echo %cd%
 
 - script: dotnet build --configuration $(buildConfiguration)
