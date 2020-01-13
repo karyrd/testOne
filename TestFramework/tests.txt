@@ -1,0 +1,11 @@
+﻿TestFramework.Test.Tests.ProductTests.SearchTest
+TestFramework.Test.Tests.ProductTests.PricesFilterTest
+TestFramework.Test.Tests.ProductTests.AddToCartTest
+TestFramework.Test.Tests.ProductTests.AddToWishlistTest
+TestFramework.Test.Tests.ProductTests.SalesTest
+TestFramework.Test.Tests.ProductTests.ClearCartTest
+
+TestFramework.Test.Tests.UserTests.LoginTest
+TestFramework.Test.Tests.UserTests.ChangeNameTest
+TestFramework.Test.Tests.UserTests.CommentTest
+TestFramework.Test.Tests.UserTests.RegionTest

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="TestFramework.dll" fullname="D:/4kyrs/DimaTesting/bstu-testing-master/TestFramework/TestFramework/bin/Debug/netcoreapp3.1/TestFramework.dll" testcasecount="1" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.891527" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" random-seed="1489942642">
+  <command-line><![CDATA[D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1\TestFramework.dll /env=qa /browser=firefox]]></command-line>
+  <filter>
+    <test>TestFramework.Test.Tests.ProductTests.ClearCartTest</test>
+  </filter>
+  <test-suite type="Assembly" id="1002" name="TestFramework.dll" fullname="D:/4kyrs/DimaTesting/bstu-testing-master/TestFramework/TestFramework/bin/Debug/netcoreapp3.1/TestFramework.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.891527" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.12.0.0" clr-version="3.1.0" os-version="Microsoft Windows 10.0.15063" platform="Win32NT" cwd="D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1" machine-name="DESKTOP-7P0FFH3" user="KaRy" user-domain="DESKTOP-7P0FFH3" culture="be-BY" uiculture="ru-RU" os-architecture="x64" />
+    <settings>
+      <setting name="LOAD" value="System.Collections.Generic.List`1[System.String]" />
+      <setting name="WorkDirectory" value="D:\4kyrs\DimaTesting\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="31172" />
+      <property name="_APPDOMAIN" value="TestFramework" />
+    </properties>
+    <test-suite type="TestSuite" id="1003" name="TestFramework" fullname="TestFramework" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.878226" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="1004" name="Test" fullname="TestFramework.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.877682" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestSuite" id="1005" name="Tests" fullname="TestFramework.Test.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.877515" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1000" name="ProductTests" fullname="TestFramework.Test.Tests.ProductTests" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.871713" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="1001" name="ClearCartTest" fullname="TestFramework.Test.Tests.ProductTests.ClearCartTest" methodname="ClearCartTest" classname="TestFramework.Test.Tests.ProductTests" runstate="Runnable" seed="1468140525" result="Passed" start-time="2020-01-13 08:13:13Z" end-time="2020-01-13 08:14:22Z" duration="68.831964" asserts="0" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

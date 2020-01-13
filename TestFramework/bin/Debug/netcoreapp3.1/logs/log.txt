@@ -1,0 +1,61 @@
+2020-01-11 16:06:58.631 +03:00 [ERR] Unable to locate element: //*[@id='user-first_name']
+2020-01-11 16:07:50.238 +03:00 [ERR] Unable to locate element: //*[@id='user-first_name']
+2020-01-11 16:08:41.626 +03:00 [ERR] Unable to locate element: //*[@id='main']/div/div/div/div/div/div/div[2]/a[3]
+2020-01-11 16:09:33.402 +03:00 [ERR] Unable to locate element: //*[@id='main']/div/div/div/div/div/div/div[2]/a[3]
+2020-01-11 16:10:24.634 +03:00 [ERR] Unable to locate element: //*[@id='main']/div/div/div/div/div/div/div[2]/a[3]
+2020-01-11 22:45:39.305 +03:00 [ERR] Unable to locate element: //*[@id='menu-wrapper']/div/div[2]/input
+2020-01-11 22:51:41.740 +03:00 [ERR] Unable to locate element: //*[@id='menu-wrapper']/div/div[2]/input
+2020-01-11 22:55:18.716 +03:00 [ERR] Unable to locate element: ./ancestor-or-self::form
+2020-01-11 22:58:09.565 +03:00 [ERR]   Expected: True
+  But was:  False
+
+2020-01-12 00:01:25.543 +03:00 [ERR] Unable to locate element: div[class='products-catalog__list']/div[1]
+2020-01-12 00:05:13.852 +03:00 [ERR] Sequence contains no elements
+2020-01-12 00:11:51.277 +03:00 [ERR] Unable to locate element: //*[@id='vue-root']/div[3]/div/div/div[1]/div/h1/span/span/a
+2020-01-12 00:13:49.325 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[1]/div/span[3]
+2020-01-12 00:17:35.564 +03:00 [ERR] Unable to locate element: div[class='products-catalog__list']/div[1]/a
+2020-01-12 00:20:59.925 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[1]/div/span[3]
+2020-01-12 00:24:55.267 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[4]/span
+2020-01-12 00:31:37.600 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[1]/div/span[3]
+2020-01-12 00:45:59.364 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[1]/div/span[3]
+2020-01-12 00:50:30.771 +03:00 [ERR] Unable to locate element: product__cart-add-button
+2020-01-12 00:53:11.181 +03:00 [ERR] Unable to locate element: div[class='cpi__name']/b
+2020-01-12 00:54:40.928 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[1]/div/span[3]
+2020-01-12 08:18:04.687 +03:00 [ERR] Unable to locate element: div[class='ii-product-buy']/div[1]/div/span[3]
+2020-01-12 08:41:07.365 +03:00 [ERR] Unable to locate element: div[class='cpi__name']/b
+2020-01-12 09:09:07.426 +03:00 [ERR] Unable to locate element: /html/body/div[1]/div[5]/div/div[2]/div/div/div/div[2]/div[3]/div/div[1]/a/div[4]/span[1]
+2020-01-12 14:11:51.968 +03:00 [ERR] Unable to locate element: //*[@id='vue-root']/div[3]/div/div[2]/div/div/div/form[1]/div[1]/dl[1]/dd/div[2]/input
+2020-01-12 14:20:45.053 +03:00 [ERR] Unable to locate element: /html/body/div[1]/div[2]/div[1]/span[1]/a
+2020-01-12 18:59:02.192 +03:00 [ERR] Element <label class="stars-field__label"> could not be scrolled into view
+2020-01-12 19:05:14.561 +03:00 [ERR]   String lengths are both 8. Strings differ at index 1.
+  Expected: "Спасибо!"
+  But was:  "СПАСИБО!"
+  ------------^
+
+2020-01-12 19:07:27.216 +03:00 [ERR] Unable to locate element: /html/body/div[11]/div/div/div/div[2]/div[1]
+2020-01-12 19:10:53.459 +03:00 [ERR] Unable to locate element: //*[@id='vue-root']/div[3]/div/div/div[1]/div/div[2]/div/div[4]/span
+2020-01-12 19:23:56.385 +03:00 [ERR] Unable to locate element: /html/body/div[1]/div[5]/div/div[2]/div/div/div/div[2]/div[3]/div/div/a/div[4]/span[1]
+2020-01-12 19:25:47.779 +03:00 [ERR] Unable to locate element: /html/body/div[1]/div[5]/div/div[2]/div/div/div/div[2]/div/div[3]/div/div/a/div[1]
+2020-01-12 19:29:57.245 +03:00 [ERR]   Expected: True
+  But was:  False
+
+2020-01-12 20:51:12.529 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 20:59:17.409 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:00:31.497 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:01:49.582 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:08:28.032 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:10:16.901 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:13:14.347 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:16:56.450 +03:00 [ERR] Unable to locate element: //*[@id='checkout__cart']/div/div[2]/div/div/div[3]/div[2]/button
+2020-01-12 21:19:14.200 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:27:53.669 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-12 21:48:24.221 +03:00 [ERR] Unable to locate element: /html/body/div[1]/div[5]/div[3]/div[2]/div[2]/div/div[2]/div/div/div[3]/div[2]/button
+2020-01-13 10:49:04.448 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-13 10:50:44.846 +03:00 [ERR] The element reference of <button class="checkout__button cpi__action cpi__action_remove" type="submit"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+2020-01-13 10:52:26.180 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-13 10:57:22.442 +03:00 [ERR] The element reference of <button class="checkout__button cpi__action cpi__action_remove" type="submit"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+2020-01-13 10:58:58.336 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-13 11:03:23.256 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-13 11:10:31.224 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-13 11:12:35.556 +03:00 [ERR] Element <button class="checkout__button cpi__action cpi__action_remove" type="submit"> could not be scrolled into view
+2020-01-13 11:14:12.849 +03:00 [ERR] The element reference of <button class="checkout__button cpi__action cpi__action_remove" type="submit"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
