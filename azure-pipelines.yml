@@ -14,10 +14,10 @@ variables:
 
 steps:
 
-- script: dotnet run /env=qa /browser=firefox
-  workingDirectory: $(Agent.BuildDirectory)
-  
 - script: echo $(Agent.BuildDirectory)
+
+- script: dotnet run /env=qa /browser=firefox
+  workingDirectory: $(Agent.BuildDirectory)  
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
