@@ -13,9 +13,9 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+  workingDirectory: $(Agent.BuildDirectory)\TestFramework\TestFramework
 
 - task: DotNetCoreCLI@2
-  workingDirectory: $(Agent.BuildDirectory)\TestFramework\TestFramework
   inputs:
     command: run
     arguments: '--configuration $(buildConfiguration) /env=qa /browser=firefox'
