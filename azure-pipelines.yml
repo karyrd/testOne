@@ -14,8 +14,8 @@ variables:
 
 steps:
 
-- script: dotnet run /env=qa /browser=firefox
-  workingDirectory: $(Agent.BuildDirectory)\s\TestFramework
-
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- script: dotnet run /env=qa /browser=firefox
+  workingDirectory: $(Agent.BuildDirectory)\s\TestFramework

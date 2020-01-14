@@ -1,6 +1,1 @@
 ﻿TestFramework.Test.Tests.ProductTests.SearchTest
-TestFramework.Test.Tests.ProductTests.PricesFilterTest
-TestFramework.Test.Tests.ProductTests.AddToCartTest
-TestFramework.Test.Tests.ProductTests.AddToWishlistTest
-TestFramework.Test.Tests.ProductTests.SalesTest
-TestFramework.Test.Tests.ProductTests.ClearCartTest
